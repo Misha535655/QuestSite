@@ -1,0 +1,8 @@
+.about{
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+}
+.about li{
+    list-style: inside;
+}

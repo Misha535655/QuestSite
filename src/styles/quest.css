@@ -1,0 +1,29 @@
+.questList{
+    width: 90%;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quest{
+    position: relative;
+    margin: 2vw;
+    width: 300px;
+    min-height: 50vh;
+    
+}
+.quest img{
+    width: 100%;
+    height: 100%;
+}
+.description{
+    padding: 2vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.description li {
+    padding: 10px 0 0 0;
+    color: coral;
+}

@@ -1,0 +1,38 @@
+a{
+    color: #fff;
+    text-decoration: none;
+}
+li{
+    color: #fff;
+    list-style: none;
+}
+.header, .upMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu, .numbers{
+    display: flex;
+    justify-content: space-around;
+}
+.downMenu{
+    width: 100%;
+    background-color: #12171f;
+}
+.menu li, .numbers li {
+    margin-left: 40px;
+    border-bottom: 4px solid transparent;
+    transition: all .3s ease;
+}
+.menu li:hover, .numbers li:hover{
+    border-bottom: 1px solid #fff;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.logo img{
+    width: 20%; 
+}

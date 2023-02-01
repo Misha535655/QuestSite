@@ -1,0 +1,36 @@
+.footer{
+    background-color: rgb(45, 45, 45);
+    padding: 20px;
+}
+.footerFblock{
+    border-bottom: 5px solid #fff;
+}
+.footerNav{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-right: 30px;
+}
+.footerNav li {
+    padding-left: 10px;
+}
+.QuestList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.QuestList li{
+    padding: 10px;
+
+}
+.footer li a {
+    border-bottom: 4px solid transparent;
+    transition: all .3s ease;
+
+}
+.footer li a:hover{
+    border-bottom: 1px solid #fff;
+
+}
